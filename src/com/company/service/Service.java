@@ -2,11 +2,11 @@ package com.company.service;
 
 public interface Service {
 
-    void changeDriver(int truckId);
+    void changeDriver(int id);
 
-    void startDriving(int truckId);
+    void startDriving(int id);
 
-    void startRepair(int truckId);
+    void startRepair(int id);
 
     void changeTruckState();
 
